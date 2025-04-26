@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.23)  26 APR 2025 08:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.23)  26 APR 2025 09:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1378,14 +1378,11 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [51]
-<Immagini/Grafico_pressione_raggio.png, id=772, 672.5125pt x 659.46375pt>
+<Immagini/Grafico_pressione_raggio.png, id=773, 672.5125pt x 659.46375pt>
 File: Immagini/Grafico_pressione_raggio.png Graphic file (type png)
 <use Immagini/Grafico_pressione_raggio.png>
 Package pdftex.def Info: Immagini/Grafico_pressione_raggio.png  used on input line 950.
-(pdftex.def)             Requested size: 298.75264pt x 292.95227pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 256.07741pt x 251.11201pt.
 
 
 
@@ -1414,12 +1411,12 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [54]
-<Immagini/potensiale di roche su punto.png, id=800, 763.85374pt x 394.47375pt>
+<Immagini/potensiale di roche su punto.png, id=802, 763.85374pt x 394.47375pt>
 File: Immagini/potensiale di roche su punto.png Graphic file (type png)
 <use Immagini/potensiale di roche su punto.png>
 Package pdftex.def Info: Immagini/potensiale di roche su punto.png  used on input line 1008.
 (pdftex.def)             Requested size: 213.39568pt x 110.19908pt.
-<Immagini/potenziale di Roche lungo asse congiungente.png, id=801, 703.62875pt x 280.04625pt>
+<Immagini/potenziale di Roche lungo asse congiungente.png, id=803, 703.62875pt x 280.04625pt>
 File: Immagini/potenziale di Roche lungo asse congiungente.png Graphic file (type png)
 <use Immagini/potenziale di Roche lungo asse congiungente.png>
 Package pdftex.def Info: Immagini/potenziale di Roche lungo asse congiungente.png  used on input line 1018.
@@ -1541,10 +1538,10 @@ Here is how much of TeX's memory you used:
  108i,18n,107p,883b,1202s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (68 pages, 1602815 bytes).
+Output written on main.pdf (68 pages, 1602893 bytes).
 PDF statistics:
- 1107 PDF objects out of 1200 (max. 8388607)
- 929 compressed objects within 10 object streams
+ 1108 PDF objects out of 1200 (max. 8388607)
+ 930 compressed objects within 10 object streams
  346 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
