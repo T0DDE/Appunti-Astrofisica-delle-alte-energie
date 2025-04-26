@@ -1,0 +1,214 @@
+\chapter{II PARTE}
+
+\section{20/03/24}
+
+\subsubsection{Polvere Interstellare}
+La polvere, come detto, rappresenta solo l'1\% della massa dell'ISM. 
+Principalmente la composizione è di silicati, grafite e carbonacei.
+L'importanza della polvere sta fondamentalmente in tre fattori:
+\begin{itemize}
+    \item \textbf{Regolamentazione energetica}:
+    contribuisce al raffreddamento dell'ISM.
+    \item \textbf{Catalizzatore}:
+    Chimica \textit{indotta} dalla polvere
+    \item \textbf{Formazione stellare}:
+    è un ingrediente fondamentale
+\end{itemize}
+\textbf{Deplezione}: la rimozione/assenza di elementi dalla fase gassosa. Dalle osservazioni si nota come l'abbondanza di alcuni elementi nel gas interstellare non corrisponde a ciò che ci saremmo aspettati; questo fece iniziare a pensare a un meccanismo di "aggregazione" che rimuovesse dal gas alcuni elementi. 
+L'idrogeno molecolare inoltre ha un'abbondanza che non si poteva spiegare senza considerare la presenza di materiale di tipo solido.
+Questo materiale solido doveva però avere delle caratteristiche: \textbf{estinzione}, ovvero assorbimento e scattering, che si è visto essere particolarmente efficiente nell'UV e nel blu, ed \textbf{emissione interstellare}, particolarmente efficiente nel radio e nell'infrarosso.
+Ciò che passa è una luce "\textit{arrossata}".
+Confrontando il flusso tra una stella arrossata ed una non arrossata posso misurare quanto sia effettivamente arrossata: \textbf{pair method}.
+Posso quindi ricavare l'estinzione in funzione della frequenza, o della lunghezza d'onda.
+\textit{Vedi slide per formule estinzione.}
+L'assunzione di base sostiene che ci sia una sola nube uniforme con proprietà ottiche ben definite attraverso cui passa la luce stellare. Nonostante ciò cia assolutamente improbabile, la descrizione che viene fuori da questo approccio è comunque utile.
+\textbf{Colore}: differenza in magnitudini tra due lunghezze d'onda.
+L'estinzione dipende dalla $\lambda$, ma si può normalizzare al valore di $\lambda = 880nm$, in modo da trovare una curva di estinzione (ISEC), caratterizzata da $R_{v}$, un parametro che è definito \textit{nelle slides}.
+Il picco delle ISEC per linee di vista diverse è sempre sullo stesso punto, a $217.5nm$. Maggiore è l'$R_{v}$, minore sarà la pendenza a destra del picco, negli UV. 
+Ciò fa capire che anche nella caratterizzazione delle ISEC c'è una regola.
+Se prendo tutte le curve e le medio, trovando la curva di estinzione galattica media, questa mi aiuta a caratterizzare la galassia, ed è caratterizzata da un $R_{v} = 3.1$.
+Da un confronto, la piccola nube di Magellano mostra un comportamento diverso (no picco, salita monotona crescente verso i FUV), legato alla metallicità della galassia.
+\\Come è collegata la polvere con il gas?\\
+Densità di colonna ed estinzione sono collegate da una legge empirica: avendo l'una, si ottiene l'altra.
+Questo si riconduce al modello a fasi visto: 
+\begin{itemize}
+    \item $A_{v}<0.1\hspace{0.2cm}mag$, gas atomico diffuso
+    \item $A_{v}<0.25 - 2\hspace{0.2cm} mag$, gas molecolare diffuso
+    \item $A_{v}\sim 3-10 \hspace{0.2cm}mag$, gas molecolare denso
+    \item $A_{v}\sim10 - 20 \hspace{0.2cm}mag$, zone più dense
+\end{itemize}
+\textbf{Teoria classica di Mie}\\
+Immagino i grani come delle sfere, di raggio a, che abbiano una sezione d'urto legata alla lunghezza d'onda. Quando $\lambda$ va a zero, la sezione d'urto tende alla sezione d'urto geometrica.
+Ciò permette di definire un coefficiente di estinzione che è il rapporto tra queste due sezioni d'urto. Grazie a sto parametro posso considerare una distribuzione di grani di polvere, per cui definisco: 1) un parametro di scattering, 2) un parametro di scattering, 3) un parametro di estinzione.\\
+Il grano assorbe radiazione: cosa ne fa? Dipende dalle proprietà ottiche.
+Per grani molto grandi grossomodo si trova una temperatura di equilibrio; per grani piccoli invece si notano dei picchi.
+Sono a frequenze particolari, legate ad esempio a legami C-H, alla presenza di particolari tipi di composizione: presenza di grandi macromolecole di natura organica, quindi transizioni vibrazionali di idrocarburi policiclici aromatici. Non sono grani, ma sono di grandi dimensioni.\\
+\textbf{Modello MNR}: un modello del '77 che fitta l'estinzione interstellare con una combinazione di materiali di dimensioni particolari, distribuiti con una \textit{size distribution} a legge di potenza.
+Da ciò si trova come devono essere le dimensioni relative alla composizione chimica dei grani di polvere.
+La formazione della polvere può avvenire all'interno delle stelle, in fasi diverse a seconda della massa delle stelle.
+La polvere può essere vista come se attraversasse un'evoluzione, e vedremmo grani diversi perché li si sta osservando in fasi diverse della loro evoluzione.
+Bisogna quindi cercare di descrivere una crescita del grano, che richiede quindi un fenomeno di assorbimento, che dia però il tempo alle reazioni chimiche di produrre il materiale solido della polvere. Ciò può avvenire solo in regioni più fredde.\\
+\textbf{Modello "core mantle"}\\
+Un modello "a cipolla" che tiene conto di un core di silicati (comune in tutte le varianti di questo modello) e di uno o più gusci di carbonacei, che possono presentare livelli di ibridizzazione diversi.
+
+
+\section{25/03/2024}
+\subsection*{Trasporto Radiativo}
+Questa parte, che sarà un ripasso abbastanza compatto, segue il Ribiki.\\
+I meccanismi di interazione sono fondamentalmente tre:
+\begin{itemize}
+    \item Assorbimento  (perdita di energia)
+    \item Emissione     (guadagno di energia)
+    \item Scattering    (ridistribuzione di energia)
+\end{itemize}
+Tutti e tre i fenomeni sono inclusi nell'\textbf{\textit{Equazione di trasporto radiativo}} (\textbf{ETR}).
+Diminuzione di energia in un elemento di volume cilindrico:
+\begin{equation}
+    dI_{\nu} = - \alpha_{\nu}I_{\nu}ds,
+\end{equation}
+dove $\alpha_{\nu}$ è il \textbf{\textit{coefficiente di assorbimento specifico}} per la frequenza $\nu$, definito come:
+\begin{equation}
+    \alpha_{\nu} = n\sigma_{\nu} = \rho k_{\nu},
+\end{equation}
+dove $n$ è la densità e $\sigma_{\nu}$ la sezione d'urto del gas, mentre $\rho$ è la densità di massa e $k_{\nu}$ il \textbf{\textit{coefficiente di opacità}}.
+Si definisce anche il \textit{coefficiente di emissione} $j_{\nu}$.\\
+Da qui le definizioni le trovi sugli appunti di Astro o dal Ribiki, elenco solo le quantità introdotte.
+Introduco \textbf{\textit{emissività}} e lego con c. di emissione, e trovo l'ETR in funzione del percorso $ds$.\\
+CASI LIMITE:
+\begin{itemize}
+    \item Puro assorbimento (\textit{Limb Lightening})
+    \item Pura emissione (\textit{Limb Darkening})
+\end{itemize}
+DEF.: \textit{\textbf{Spessore Ottico o Profondità Ottica}.}
+Per convenzione si pone pari a 0 al bordo. 
+Si lega al libero cammino medio il coefficiente di assorbimento, e lo spessore ottico.
+La \textbf{\textit{Sezione d'urto Thomson}} è la minima sez. d'urto affinché avvenga un'interazione radiazione materia.
+Una geometria che si usa è la geometria a \textit{piani paralleli}, che permette di risolvere l'ETR. 
+In generale dipenderà da distanza e angolo di vista.
+Spesso questa geometria non va bene, e si usa invece una simmetria sferica.
+L'angolo tra il raggio e la direzione radiale ora non è più costante.\\
+DEF.: \textbf{\textit{Funzione Sorgente}}, come rapporto tra coefficiente di emissione e di assorbimento. Essa è interessante perché fa sparire la parte angolare, e inoltre in un'unica funzione sto includendo tutte le proprietà del mezzo.
+Inoltre, nella soluzione dell'ETR di alcuni casi più semplici 
+Es.: in equilibrio termico si trova che la funzione sorgente descrive la legge di Kirchoff.
+Questa situazione è però particolarmente improbabile nella realtà; però possiamo definire delle condizioni di \textbf{LTE} (\textit{\textbf{equilibrio termico locale}}), in cui non avremo una temperatura globale del gas, ma solo locali, e non sono note.
+L'LTE è utile quando ho un'alta densità e una bassa temperatura, in cui la componente di assorbimento è piccola rispetto alla densità di energia del gas, determinata principalmente dalle collisioni.
+Non è buona approssimazione nelle nubi diffuse ad esempio, in cui densità e spessore ottico sono piccoli.
+\begin{itemize}
+    \item Spessore ottico --> infinito\\
+    $I_{\nu}(0) = S_{\nu}$
+    \item Sperrore ottico --> 0\\
+    $I_{\nu}(0) = I_{\nu}() +???$
+\end{itemize}
+La funzione sorgente è una quantità a cui l'intensità specifica tende naturalmente.
+L'ETR è una sorta di equazione di \textit{"rilassamento"} del sistema.
+\textbf{Temperatura di Brillanza}: temperatura che un corpo nero avrebbe se avesse la stessa luminosità ad una data frequenza.
+Vedi dalle slides l'ETR scritta con la $T_{B}$.\\
+\subsection*{Transizioni e coefficienti di Einstein}
+Questa parte rivedila da appunti di altri esami.
+Sono importanti perché dipendono dalle proprietà atomiche, non dalle condizioni termodinamiche. La cosa utile è che basta conoscerne uno per conoscerli tutti; in particolare il coefficiente $A_{21}$ di emissione spontanea si può calcolare sempre, quindi la descrizione è completa conoscendo solamente le energie dei due livelli energetici (vedi dimostrazione da struttura).
+Possono inoltre essere ricollegati al coefficiente di assorbimento e di emissione.
+Si raggiunge quindi la \textbf{\textit{Legge di Kirchoff generalizzata}}.
+\subsection*{Densità critica}
+Un gas di atomi liberi mostra fenomeni noti come \textbf{\textit{eccitazioni collisionali}}: gli atomi muovendosi urtano.
+Nel farlo passano tra stati di transizione eccitati, possono decadere, rilasciare energia nel gas. 
+Se studio gli stati di eccitazione, posso studiare le condizioni fisiche del gas: determinare le popolazioni posso inferire temperatura, densità e campo di radiazione: da una grandezza osservativa a parametri fisici del mezzo.
+Le collisioni sono di tipo \textit{elastico} se lasciano invariata la popolazione dei livelli, o \textit{reattivo} se spingono il sistema verso una trasformazione oppure fare dei passaggi interni (tra forme orto e para).
+Il rate di diseccitazione collisionale si può calcolare (vedi SLIDES) attraverso i \textit{collisori}, mentre quello di eccitazione, applicando il principio del \textit{bilancio dettagliato}.
+Si introducono ora quindi due nuovi coefficienti $C_{21}$ e $C_{12}$, per tenere conto delle collisioni.
+L'equazione di equilibrio statistico ha come soluzione che dipende dalla \textit{Temperatura di Eccitazione} del livello.\\
+\textbf{Limite radiativo}: collisioni completamente ininfluenti; qui la temperatura di eccitazione tende a quella di background ($2.73K$ se non ci sono sorgenti) del mezzo.\\
+\textbf{Limite collisionale}: collisioni molto influenti; qui la temperatura di eccitazione tende alla temperatura cinetica del mezzo.\\
+Questi limiti danno a una temperatura senza significato fisico (dimensionalmente è una temperatura, ma è un oggetto matematico, non ha di per sé un significato fisico) specifico un'interpretazione fisica nel limite radiativo e collisionale.\\
+Quando posso assumere valida l'LTE? il mezzo dev'essere più nel limite collisionale che radiativo; $\frac{1}{C_{21}} << \frac{1}{A_{21}}$, oppure definisco una densità critica t.c. tale limite si ha per $n >> n_{crit}$ (\textbf{}{vedi slides}).
+Per ogni transizione per ogni tipo di atomo o molecola, posso calcolare il valore di densità critica. 
+
+\section{POTENZIALMENTE UTILE DA INSERIRE}
+Una transizione è caratterizzata sempre da un'incertezza, descritta dal "\textit{profilo di riga}", e non può essere mai una delta di Dirac perfetta; la \textbf{forza dell'oscillatore} rappresenta una correzione quantistica al risultato classico, e i coefficienti di Einstein possono essere descritti in termini di essa.
+L'\textit{allargamento} della riga può essere causato da diversi fattori:
+\begin{itemize}
+    \item Allargamento naturale: dovuto all'incertezza di Heisenberg, è l'inverso del tempo di permanenza, cioè la probabilità di diseccitazione spontanea; è ineliminabile, e ha un profilo \textit{lorentziano} e \textit{omogeneo}.
+    \begin{equation}
+        k(\nu) = \frac{k_{0}}{1 + \left(???\right)}
+    \end{equation}
+    \item Doppler Termico: maggiore la temperatura maggiore la distribuzione di velocità (Maxwelliana, con un profilo di forma Gaussiana) osservabile; ciò ha un'influenza sulla riga.
+    Questo allargamento quindi sarà:
+    \begin{equation}
+        \Delta\nu = \nu_{0}\sqrt{\frac{kT}{mc^{2}}}.
+    \end{equation}
+    La FWHM è descritta da un termine detto "parametro Doppler" $b$
+    \begin{equation}
+        b = \sqrt{\frac{2kT}{M} + 2\xi^{2}}.
+    \end{equation}
+    \item Allargamento da pressione:la presenza di molti/pochi atomi può perturbare lo stato energetico dell'atomo; effetto proporzionale alla densità. Si divide anche a sua volta in allargamento \textit{Stark lineare}, di \textit{risonanza} e di \textit{Van der Waals}.\\
+    In genere avviene in caso di stelle piccole e molto dense, quindi lo vedremo poco in questo corso.
+    \item Allargamenti da cause \textit{non locali}: come l'allargamento \textit{rotazionale}, da \textit{turbolenza}, ...\\
+\end{itemize}
+La riga che vedo presenta un po' di tutto, e ciò lo indico come un profilo di tipo \textbf{VOIGT}:
+\begin{equation}
+    \phi^{VOIGT}_{\Delta\nu} = \phi^{damping}_{\Delta\nu} \times \phi^{doppler}_{\Delta\nu}\hspace{0.1cm},
+\end{equation}
+che mostra un profilo con un core Gaussiano, e delle ali Lorentziane.
+In assunzione di \textit{puro assorbimento}, posso derivare il valore della profondità ottica se osservo una riga in assorbimento.
+Questa avrà una larghezza e un'altezza: la prima in termini di FWHM, la seconda in termini di una funzione definita come "\textbf{larghezza equivalente}", che rappresenta il rapporto del rate a cui l'energia viene assorbita, rispetto all'intensità iniziale. 
+La larghezza del rettangolo con stessa area della riga spettrale, e ha l'altezza di tutto il continuo (se ho normalizzato, l'altezza andrà da 0 a 1).\\
+Ciò semplifica le cose perché dall'integrale posso calcolare la larghezza equivalente della riga, e posso eseguire l'analisi della \textbf{curva di crescita}: se ad esempio conosco la larghezza equivalente, la densità degli atomi che assorbono, e la temperatura del mezzo, in via teorica posso ricavare la densità degli atomi di un dato elemento.
+Le righe diventano uno strumento diagnostico per calcolare le abbondanze degli elementi.
+Si esprimono i risultati in termini della \textbf{funzione di Hjerting}, che espandendo da al primo termine la larghezza della riga e al secondo info sulle code. 
+\subsubsection*{Curva di crescita}
+Ha tre tipi di regimi: \textit{lineare} per profondità ottiche piccole, \textit{piatto} per profondità ottiche un po' più grandi, e \textit{quadratico} per profondità ottiche ancora più grandi.
+C'è modo di stimare la densità di colonna a partire dal tipo di regime.
+Da regime lineare a piatto, la riga inizia a caricare la parte centrale: \textbf{saturazione}. Larghezza equivalente aumenta lentamente con profondità ottica e densità di colonna: le righe iniziano a crescere. Ancora no effetti nella parte delle ali.\\
+Aumentando ancora la profondità ottica, il centro di riga saturato, e la crescita avverrà quindi sulle ali: righe cariche al centro e larghe sulle ali (regime quadratico).
+\subsection*{Fondamenti di spettroscopia molecolare}
+Caso più semplice: molecole \textbf{biatomiche}. 
+La struttura in questo caso si semplifica grazie alle simmetrie presenti.
+L'energia di questa molecola avrà modi corrispondenti: introduco l'equazione di Shroedinger e cerco di descrivere l'Hamiltoniana, che avrà una serie di termini.
+I termini misti complicano, ma posso semplificare attraverso l'approssimazione di \textbf{Born - Oppenheimer}: separo moto elettronico e moto nucleare.
+Fare ciò rende la soluzione fattorizzabile, e scrivo quindi la funzione d'onda come prodotto di una funzione rotazionale, una elettronica e una vibrazionale.
+L'energia sarà la somma dei vari contributi.
+Si definiscono le regole di transizione, o di \textit{selezione} (transizioni di dipolo), e le transizioni \textit{proibite}.
+Le vibrazioni possono essere di tipi diversi:\\\\
+\begin{itemize}
+    \item stretching
+    \item bending
+    \item rocking
+    \item wagging
+    \item twisting
+\end{itemize}
+\subsubsection{Vibrazione}
+Che modello usare? L'\textit{oscillatore armonico}: il legame tra gli atomi come una molla.
+Questo modello funziona per oscillazioni piccole rispetto alla posizione di equilibrio.
+Per vibrazioni più accentuate la correzione si fa attraverso il \textbf{potenziale di Morse}: prima differenza è che considera ciò che succede per vibrazioni ampie, con l'andamento che mostra un \textit{plateau} corrispondente all'energia di dissociazione (rottura del legame); in secondo luogo i livelli sono finiti, calcolabili e hanno una \textit{spaziatura variabile}, non sono più equidistanti!
+\subsubsection{Rotazione}
+Rotazione decisamente superiore alla vibrazione, o vibrazione del tutto assente. Che modello usare? Il \textit{rotatore rigido}: nuclei uniti da un asse rigido.
+Permette di calcolare i livelli energetici rotazionali, che sono sempre finiti, regolari, ognuno con un numero quantico specifico, \textit{non equi-spaziati}: spaziatura che si allarga all'aumentare di esso.
+Sono transizioni molto più deboli rispetto ai modelli vibrazionali: da 100 a 1000 volte più deboli.
+Ognuna di queste energie può avere una \textit{degenerazione} $m_{J}$ (direzioni permesse) che varia in $[-J;\hspace{0.1cm}J]$ dove $J$ è il numero quantico rotazionale (?).
+La molecola non è però un vero rotazione rigido, e bisogna introdurre anche qui una correzione: la \textit{distorsione centrifuga}.
+Alcune molecole complicate richiedono un secondo numero quantico che tenga conto della rotazione attorno a masse secondarie.
+L'energia totale della molecola sarà la somma delle energie rotazionale, vibrazionale ed elettronica, con le varie correzioni.
+Lo spettro delle transizioni \textit{roto - vibrazionali} si divide in ramo p, ramo q e ?? in base al valore di $\Delta J$.
+\section{08/04/2024}
+\subsection{Fondamenti di chimica interstellare}
+Tra le cause della chimica osservata nei primi '60 furono proposte alcune ipotesi, che in generale presupponevano una formazione da frammentazione di oggetti più grandi che si distruggevano, ma nessuna soddisfacente. 
+Si iniziò a pensare alla possibilità della formazione di molecole in nubi di gas.
+Qui il ragionamento è opposto al precedente: formazione di molecole per aggregazione.
+Si definiscono i rate di formazione e dissociazione di specie chimiche.
+Nelle reazioni che vediamo noi, in generale, sono presenti tre oggetti, uno dei quali serve a "stabilizzare". 
+Il rate che si calcola per reazioni a tre corpi nella chimica interstellare è trascurabile --> no reazioni a tre corpi.
+Ciò che si fa quindi è introdurre l'intervento dei grani di polvere.
+Si divide quindi la chimica in fase gas e fase grani.
+% \begin{equation}
+%     A + BC \xrightarrow{k} AB + C,
+% \end{equation}
+dove $k$ è il rate.
+Foto-ionizzazione: può essere \textit{diretta}, \textit{dissociativa}, ed \textit{auto-ionizzazione}.
+H è l'elemento più comune $\xrightarrow{}$ solo specie con potenziali di ionizzazione inferiori a $13.6eV$ verranno ionizzati dalla radiazione.
+DEF. \textit{continuo vibrazionale}: quando raggiungo i livelli vibrazionali più alti, che essendo sempre più vicini mano a mano che salgo raggiungono una fase appunto detta "continuo" vibrazionale.
+Molti processi chimici sono iniziati da molecole che sono ionizzate efficacemente da raggi cosmici.
+PARTE SU IONIZZAZIONE CHIEDI
+  
+
+
+
+

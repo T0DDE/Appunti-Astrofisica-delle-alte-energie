@@ -1,0 +1,83 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Accrescimento e dischi - ch. 1 e 5 King}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Two bodies problem without lagrangian approach}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Accrescimento}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Energia e momento angolare}{7}{subsection.1.2.1}%
+\contentsline {subsubsection}{Sulla radiazione emessa dal disco}{8}{section*.2}%
+\contentsline {subsubsection}{Il tragitto del momento angolare}{8}{section*.3}%
+\contentsline {subsubsection}{Momento angolare per unità di massa}{9}{section*.4}%
+\contentsline {subsubsection}{Energia}{9}{section*.5}%
+\contentsline {subsubsection}{Circolarizzazione}{10}{section*.6}%
+\contentsline {subsubsection}{Sulle efficienze}{10}{section*.7}%
+\contentsline {subsubsection}{Dischi di accrescimento: perché si formano?}{11}{section*.8}%
+\contentsline {section}{\numberline {1.3}Sui potenziali gravitazionali}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Lezione sui BH, perché si - ch. 1 Taylor, Wheeler - ch. 1 Shultz (vedi drive) - Forse andrebbe in Appendice?}{11}{subsection.1.3.1}%
+\contentsline {subsubsection}{Un buco allo stomaco? O nella teoria?}{12}{section*.9}%
+\contentsline {subsection}{\numberline {1.3.2}Potenziale di Paczinsky-Wiita}{13}{subsection.1.3.2}%
+\contentsline {subsubsection}{Efficacia del metodo}{13}{section*.10}%
+\contentsline {subsubsection}{Avanzamento del periastro}{15}{section*.11}%
+\contentsline {subsubsection}{Dischi di accrescimento}{16}{section*.12}%
+\contentsline {subsubsection}{Discorso sull'efficienza}{18}{section*.13}%
+\contentsline {subsubsection}{Accrescimento su NS}{18}{section*.14}%
+\contentsline {chapter}{\numberline {2}Sulle Stelle di Neutroni}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sullo spettro di emissione}{21}{section.2.1}%
+\contentsline {subsubsection}{Limite di Eddington}{21}{section*.15}%
+\contentsline {subsubsection}{Caso dei buchi neri super-massicci (SMBH)}{23}{section*.16}%
+\contentsline {subsection}{\numberline {2.1.1}Pulsar}{23}{subsection.2.1.1}%
+\contentsline {subsubsection}{Cosa poteva causare questa periodicità?}{23}{section*.17}%
+\contentsline {subsubsection}{Emissione nel radio}{24}{section*.18}%
+\contentsline {subsection}{\numberline {2.1.2}Sui campi magnetici}{24}{subsection.2.1.2}%
+\contentsline {subsubsection}{Dipolo magnetico e "Larmor" magnetico}{25}{section*.19}%
+\contentsline {subsubsection}{Facciamo ruotare il sistema}{26}{section*.20}%
+\contentsline {subsubsection}{Energia cinetica rotazionale}{26}{section*.21}%
+\contentsline {subsubsection}{Valutazione del campo magnetico}{27}{section*.22}%
+\contentsline {subsection}{\numberline {2.1.3}Che cosa emette di fatto?}{28}{subsection.2.1.3}%
+\contentsline {subsubsection}{Queste onde come vengono generate?}{28}{section*.23}%
+\contentsline {subsubsection}{Radiazione di curvatura}{29}{section*.24}%
+\contentsline {subsubsection}{Emissione complessiva}{30}{section*.25}%
+\contentsline {subsection}{\numberline {2.1.4}Sulla Crab}{31}{subsection.2.1.4}%
+\contentsline {subsubsection}{Assorbimento del plerione}{31}{section*.26}%
+\contentsline {subsubsection}{Ma allora che cosa si osserva?}{31}{section*.27}%
+\contentsline {subsection}{\numberline {2.1.5}Come evolvono nel tempo?}{33}{subsection.2.1.5}%
+\contentsline {subsubsection}{Tempo di vita e tempo di spin-down}{33}{section*.28}%
+\contentsline {subsubsection}{Tecnica dinamica}{34}{section*.29}%
+\contentsline {section}{\numberline {2.2}Diagramma BP}{35}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Linee importanti}{35}{subsection.2.2.1}%
+\contentsline {subsubsection}{Hubble line}{36}{section*.30}%
+\contentsline {subsubsection}{Death line}{36}{section*.31}%
+\contentsline {subsubsection}{Linee curve}{37}{section*.32}%
+\contentsline {subsection}{\numberline {2.2.2}Altre considerazioni sul diagramma}{38}{subsection.2.2.2}%
+\contentsline {subsubsection}{$\mathbf {\Omega (t)}$, $\mathbf {B(t)}$ e comportamenti asintotici grafico BP}{38}{section*.33}%
+\contentsline {subsubsection}{Sull'interno delle stelle di neutroni (APPENDICE?)}{39}{section*.34}%
+\contentsline {subsubsection}{Posizione NS nel diagramma BP}{40}{section*.35}%
+\contentsline {subsubsection}{Scenario del riciclaggio}{40}{section*.36}%
+\contentsline {section}{\numberline {2.3}Raggi importanti}{41}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Descrizione energetica}{41}{subsection.2.3.1}%
+\contentsline {subsubsection}{Caduta radiale}{42}{section*.37}%
+\contentsline {subsection}{\numberline {2.3.2}Descrizione dinamica}{43}{subsection.2.3.2}%
+\contentsline {subsubsection}{Campi indotti e forze - accrescimento sferico}{43}{section*.38}%
+\contentsline {subsubsection}{Accrescimento da disco}{45}{section*.39}%
+\contentsline {subsubsection}{Effetto elica}{45}{section*.40}%
+\contentsline {subsection}{\numberline {2.3.3}Confronto fra i raggi}{46}{subsection.2.3.3}%
+\contentsline {subsubsection}{}{46}{section*.41}%
+\contentsline {subsubsection}{Alcune osservazioni}{47}{section*.42}%
+\contentsline {section}{\numberline {2.4}Modelli di stelle di neutroni}{48}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Modello di Roche}{48}{subsection.2.4.1}%
+\contentsline {subsubsection}{Limite centrifugo}{48}{section*.43}%
+\contentsline {subsubsection}{Effetto all'equatore}{49}{section*.44}%
+\contentsline {subsection}{\numberline {2.4.2}Modello di Burderi}{49}{subsection.2.4.2}%
+\contentsline {subsubsection}{Differenza con Roche}{50}{section*.45}%
+\contentsline {subsubsection}{Un limite sul periodo}{50}{section*.46}%
+\contentsline {subsubsection}{Altri moti nel diagramma}{50}{section*.47}%
+\contentsline {subsubsection}{Spettro emissione e raggi}{51}{section*.48}%
+\contentsline {subsection}{\numberline {2.4.3}Grafico pressione raggio}{52}{subsection.2.4.3}%
+\contentsline {subsubsection}{Archaeopteryx}{54}{section*.49}%
+\contentsline {subsection}{\numberline {2.4.4}Sistemi binari}{54}{subsection.2.4.4}%
+\contentsline {subsubsection}{Forze mareali}{54}{section*.50}%
+\contentsline {subsubsection}{Potenziale di Roche}{55}{section*.51}%
+\contentsline {subsubsection}{Punti Lagrangiani}{55}{section*.52}%
+\contentsline {subsubsection}{Tidal torque interaction}{56}{section*.53}%
+\contentsline {chapter}{\numberline {A}Perché scegliere il c.g.s?}{59}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Tempo di caduta dalla luna}{61}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Esplosioni}{63}{appendix.C}%
+\contentsline {chapter}{\numberline {D}potenziale efficace}{65}{appendix.D}%
