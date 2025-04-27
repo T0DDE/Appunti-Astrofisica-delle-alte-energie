@@ -953,14 +953,14 @@ Fissati $P_{spin}$ e massa, dunque, avremo il grafico che relaziona la pressione
 \end{figure}
 Ora, la pressione di un disco di accrescimento si può calcolare come pressione di ariete $P_{ram} = \rho v_{ff}^2$ esercitata dalla materia in caduta libera.
 In particolare, la pressione del disco sarà $\propto P_{ram}$.
-Occorre quindi calcolare la velocità di caduta libera $v_{ff} = \frac{2GM}{R}$, e usare l'equazione di continuità $\rho v_{ff}^2 \cdot4\pi r^2 = \dot{M} \xrightarrow{} \rho = \frac{\dot{M}}{4\pi R^2} \left(\frac{R}{2GM}\right)^{1/2} $: infine, la pressione sarà
+Occorre quindi calcolare la velocità di caduta libera $v_{ff} = \sqrt{\frac{2GM}{R}}$, e usare l'equazione di continuità $\rho v_{ff} \cdot4\pi r^2 = \dot{M} \xrightarrow{} \rho = \frac{\dot{M}}{4\pi R^2} \left(\frac{R}{2GM}\right)^{1/2} $: infine, la pressione sarà
 \begin{equation}
     \rho v_{ff}^2 = \frac{\dot{M}}{4\pi R^2}\left( \frac{R}{2GM} \right)^{\frac{1}{2}}\left( \frac{R}{2GM} \right)^{-1} \propto \dot{M}M^{1/2}R^{-5/2},
 \end{equation}
 che viene rappresentata nella \textbf{Figura \ref{fig: grafico pressione raggio}} come la riga tratteggiata con pendenza $-5/2 = -2,5$, che salirebbe o scenderebbe (nella figura è già all'altezza minima che può raggiungere) a seconda che $\dot{M}$ cresca o diminuisca.
-Questo significa che, fissato il resto, a seconda del valore di $\dot{M}$, $R_m$ assumerà valori diversi, che si posizioneranno in punti diversi rispetto agli altri raggi (che sono invece fissati), il ché comporterà NS con comportamenti diversi!
+Questo significa che, fissato il resto, a seconda del valore di $\dot{M}$, la pressione di ariete varierà (e quindi anche $R_m$, che si troverà in corrispondenza di posizioni diverse rispetto agli altri raggi, che sono invece fissati), e ciò porterà a NS con comportamenti diversi!
 Si noti che la retta tratteggiata più bassa è quella che passa per il punto di intersezione fra l'andamento dettato da $P_{mag}$ e quello dettato da $P_{rad}$: da questo punto in giù non ci sono più punti di equilibrio.
-Se prima le intersezioni di $P_D$ (pressione del disco) con $P_{mag}$ e $P_{rad} $ erano punti stabili, questo ultimo punto è instabile.
+Se prima le intersezioni di $P_D$ (pressione del disco - la linea tratteggiata appena ricavata) con $P_{mag}$ e $P_{rad} $ erano punti stabili, questo ultimo punto è instabile.
 La pressione magnetica crolla molto rapidamente, quindi se interseca la pressione del disco lì si ha un nuovo equilibrio: $P_{mag} = P_D$. 
 Questo è esattamente (concettualmente) come il \textit{limite di Chandrasekhar}: la radiazione spazza via tutto quanto finché non si giunge a $P_{mag} = P_D$. 
 Se però $P_D$ scende al limite, poiché la pressione di radiazione libera lo spazio attorno e la stella è libera di emettere radio, si può passare da \textit{accrescitore} a \textbf{radio ejector}, dove appunto la zona intorno al disco è completamente ripulita.
@@ -968,7 +968,7 @@ Nel grafico in \textbf{Figura \ref{fig: grafico pressione raggio}}, la situazion
 \footnote{Una pulsar il cui accrescimento è inibito da questa emissione è stata trovata, e se ne discute in \cite{Burderi_2002}}
 
 \subsubsection{Archaeopteryx}
-In sistemi binari, il campo magnetico dopo tempi secolari varia, e dopo che la pulsar a un certo punto si spegnerà, può avvenire una tracimazione dal lobo di Roche (Roche Overflow), e che la compagna quindi inizi a perdere materia che, spiraleggiando, formerà un disco di accrescimento.
+In sistemi binari, il campo magnetico dopo tempi secolari varia, e dopo che la pulsar a un certo punto si spegnerà, può avvenire una tracimazione dal lobo di Roche (Roche Overflow): la compagna iniza a perdere materia che, spiraleggiando, formerà un disco di accrescimento.
 Una volta che la compagna finisce la materia da dare, tornando a dimensioni normali, l'accrescimento si interrompe, spegnendo nuovamente la NS.
 Questo overflow è intermittente, e non se ne conosce la ragione; ciò tuttavia permette di trovare sistemi che mostrino entrambi i comportamenti delle due fasi, facendo così da "anello di congiunzione".
 
@@ -1022,8 +1022,9 @@ A questo punto prendiamo il caso particolare in cui il punto si trovi lungo l'as
 In questo caso noto che $r_1 = a_1 + r$, $r_2 = r - a_2$, per cui
 \begin{equation}
     F(r, \theta=0)= -\frac{GM_1}{(a_1+r)^2} - \frac{GM_2}{(r-a_2)^2} + \Omega^2r \xrightarrow{impongo}=0,
+    \label{eq: F_tot Roche nulla}
 \end{equation}
-dove imponendo che la forza sia uguale a zero si troveranno i 5 zeri corrispondenti all'equazione di V grado che abbiamo scritto.
+dove, imponendo che la forza sia uguale a zero si troveranno le 5 soluzioni corrispondenti all'equazione di V grado \ref{eq: F_tot Roche nulla}. 
 Ognuno di questi zeri sarà un punto \textbf{Lagrangiano}, di equilibrio:
 $L_3$ dietro la stella più pesante, $L_2$ dietro la più leggera, $L_1$ tra le due, e infine $L_4$ ed $L_5$ che si trovano ai vertici di un triangolo equilatero la cui base è la separazione fra le due masse.
 I punti Lagrangiani sono punti di equilibrio \textit{instabile}.
@@ -1042,12 +1043,12 @@ Con il mass ratio, si può scrivere
 Si noti che per sistemi così sbilanciati, cioè per $q$ piccoli, un oggetto che si trovi in $L_4,L_5$ è come se ruotasse attorno a $M_1$.\footnote{Poiché nei punti $L_4$ ed $L_5$ del sistema terra luna non c'è niente, sono punti fantastici per mettere dei satelliti in orbita.}
 Si definiscono come \textbf{Lobi di Roche} le superfici di \textit{isopotenziale} che passano per $L_1$, oltre il quale si ricade nella zona di influenza dell'altra stella.
 A questo punto se la stella compagna evolve verso la fase di gigante rossa, come del latte messo a bollire che inizia a fare schiuma comincerà a strabordare, attraverso $L_1$, cedendo materiale alla zona di influenza della NS, causando il "\textbf{roche lobe overflow}".
-A causa delle forze di Coriolis, la materia che cade verso la compagna avrà una velocità, e quindi spiraleggierà seguendo un'ellissi, che la porterà, dopo aver fatto almeno un giro completo, a scontrarsi nuovamente con la nuova materia in ingresso da $L_1$, e facendo ciò disperde ulteriormente energia (ma non momento angolare), circolarizzando sempre di più.
+A causa delle forze di Coriolis, la materia che cade verso la compagna, che muoverà con una certa velocità, spiraleggierà seguendo un'ellissi che la porterà, dopo aver fatto almeno un giro completo, a scontrarsi nuovamente con la nuova materia in ingresso da $L_1$. Facendo ciò, disperde ulteriormente energia (ma non momento angolare), circolarizzando sempre di più.
 Dopo un po' si raggiunge un'orbita circolare a un certo raggio, e entrano in gioco le forze viscose: queste causano una perdita di momento angolare, per cui alcune orbite cadono più dentro e altre vanno verso fuori, formando così una struttura a disco.\footnote{Si noti che tutto ciò è dovuto al fatto che $L_1$ è un punto che sta ruotando!}
 
 \subsubsection{Tidal torque interaction}
-A tutto ciò si aggiunge poi il torque mareale che agisce sul bulge che ruota e cerca di allontanarsi dalla congiungente, che restituisce il momento angolare trasferito verso l'esterno del disco alla stella compagna: \textbf{tidal torque interaction}.
-L'altra parte del momento angolare, invece, è quella che cade sulla primaria, e che ne causa lo \textit{spin up}.
+A tutto ciò si aggiunge poi il torque mareale che agisce sul bulge che ruota e cerca di allontanarsi dalla congiungente, che restituisce il momento angolare trasferito verso l'esterno del disco alla stella compagna attraverso la \textbf{tidal torque interaction}.
+L'altra parte del momento angolare, invece, è quella che cade sulla primaria e che ne causa lo \textit{spin up}.
 Si definiscono i \textbf{raggi di Roche} come il raggio di una sfera di volume equivalente: 
 % si noti infatti che andando verso i poli la forza centrifuga sarà minore, per una questione geometrica, e i lobi saranno deformati per questo motivo.
 i lobi infatti sono chiaramente deformati, in particolare con una forma allungata lungo la congiungente; se $M_1>>M_2$ il lobo sarà poco deformato, ma se le masse sono confrontabili, entrambi i lobi saranno ben deformati.

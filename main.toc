@@ -74,7 +74,7 @@
 \contentsline {subsubsection}{Archaeopteryx}{53}{section*.49}%
 \contentsline {subsection}{\numberline {2.4.4}Sistemi binari}{54}{subsection.2.4.4}%
 \contentsline {subsubsection}{Forze mareali}{54}{section*.50}%
-\contentsline {subsubsection}{Potenziale di Roche}{54}{section*.51}%
+\contentsline {subsubsection}{Potenziale di Roche}{55}{section*.51}%
 \contentsline {subsubsection}{Punti Lagrangiani}{55}{section*.52}%
 \contentsline {subsubsection}{Tidal torque interaction}{56}{section*.53}%
 \contentsline {chapter}{\numberline {A}Perché scegliere il c.g.s?}{59}{appendix.A}%
