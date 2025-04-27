@@ -65,32 +65,66 @@ Nei fotoni polarizzati circolarmente, infatti, i campi non oscillano, ma \textit
     \label{fig:enter-label}
 \end{figure}
 Poiché i fotoni vengono emessi in ogni direzione, e casualmente con polarizzazione destra e sinistra, nel complesso il momento angolare totale che porteranno via dal disco sarà 0\footnote{Esistono in effetti casi astrofisici in cui il momento angolare può essere perso tramite la radiazione emessa. Ad esempio questo avviene nelle pulsar, che ruotando emettono radiazione: in questo caso si tratta di un'emissione non termica, coerente (come si vedrà più avanti).}.
+
 \subsubsection{Il tragitto del momento angolare}
-Abbiamo visto che il momento angolare diminuisce, ma che non può essere a causa della radiazione emessa. 
-Questo significa che l'unica cosa che può fare è trasferirsi lungo il disco, verso l'esterno, attraverso la materia in caduta:
-il disco, in questo modo porta materia verso l'interno, e momento angolare verso fuori.
-La parte più esterna del disco in questo modo accumulerà momento angolare, e dovrà quindi aumentare di raggio fino a staccarsi.
-A causa delle forze mareali, la stella compagna attira il disco, formandovi una protuberanza, che a causa della rotazione del disco sarà sempre un po' oltre la linea che congiunge i due corpi: la rotazione tenderà ad allontanarla, mentre la gravità tirerà per riallinearla.
+Se si considera il momento angolare per unità di massa di un oggetto di massa $M_2$ che orbita insieme ad un altro corpo di massa $M_1$, definito come
+\begin{equation}
+    \vec{l_2} = \frac{\vec{L}}{M_2} = \sqrt{G(M_1+M_2)r},
+\end{equation}
+dove $r$ è la distanza fra i due corpi, allora:
+\begin{itemize}
+    \item Per un pezzetto di materia di massa $M_2 = m \ll M_{ns} = M_1$ in orbita attorno a una stella di neutroni alla distanza $r = a/2$, il momento angolare specifico sarà
+    \begin{equation}
+        \vec{l}_m = \frac{L_m}{m} \simeq \sqrt{GM_{ns}\frac{a}{2}},
+    \end{equation}
+    poiché $M_2$ è trascurabile rispetto a $M_1$, e quindi $M_1 + M_2 \approx M_{ns}$.
+    \item Per una stella compagna di massa $M_2 = M_{comp} \sim M_{ns} = M_1$, in orbita a distanza $r = a$, il momento angolare specifico è invece
+    \begin{equation}
+        \vec{l}_{comp} = \frac{L_{comp}}{M_2} \simeq \sqrt{2GM_{ns}a},
+    \end{equation}
+    con l'approssimazione $M_1 + M_2 \simeq 2M_{ns}$.
+\end{itemize}
+In pratica, il momento angolare per unità di massa di un sistema costituito di un piccolo pezzo di materia $m$ in orbita vicino alla stella di neutroni e quello della stella compagna risultano molto simili: differiscono solo per un fattore dell'ordine di $2$.
+Quando la stella compagna trasferisce massa alla stella di neutroni (ad esempio tramite \emph{Roche lobe overflow}), essa cede anche parte del proprio momento angolare. Tuttavia, il sistema binario tende a conservare il momento angolare orbitale totale, dato da
+\begin{equation}
+    L = \mu \sqrt{G(M_1+M_2)r},
+\end{equation}
+dove $\mu$ è la massa ridotta del sistema.
+Il momento angolare \emph{della sola compagna} non si conserva esattamente, ma \textit{tende a conservarsi} grazie all'interazione mareale: a causa delle forze mareali, il disco attira la stella compagna, formandovi una protuberanza, che a causa della rotazione attorno al proprio asse sarà sempre un po' oltre la linea che congiunge i due corpi; la rotazione tenderà ad allontanarla, mentre la gravità tirerà per riallinearla.
 Questo processo genera una forza di taglio gravitazionale che, frenando la protuberanza che ruota via, genera un momento torcente attraverso il quale il momento angolare viene perso dal disco, e recuperato dalla compagna. 
-\subsubsection{Momento angolare per unità di massa}
-Se si considera il momento angolare per unità di massa, definito come
-\begin{equation}
-    \vec{l} = \frac{\vec{L}}{\mu} = \sqrt{G(M_1+M_2)r}
-\end{equation}
-di un pezzetto di materia di massa $M_2=m << M_{ns}=M_1$ in orbita attorno a una stella di neutroni a una certa distanza $a/2$, questo sarà
-\begin{equation}
-    \vec{l}_m = \frac{L_m}{\mu}\simeq \sqrt{GM_{ns}\frac{a}{2}}.
-\end{equation}
-Per una stella compagna, di massa $M_2 = M_{comp} \sim M_{ns} = M_1 $, che orbiti a una distanza doppia, pari a $a$, sarà invece
-\begin{equation}
-    \vec{l}_{comp} = \frac{L_{comp}}{\mu} \simeq \sqrt{2GM_{ns}a}.
-\end{equation}
-In pratica, il momento angolare per unità di massa di un pezzetto di massa $m$ che sta in orbita, e quello della stella compagna che orbita a distanza simile, sono molto simili: 
-la stella compagna cede massa alla NS, ma il momento angolare gli torna indietro. Poiché però sta perdendo massa, $M_{comp}$ diminuisce, e quindi diminuisce anche $l_{comp} = \sqrt{G(M_1+M_2)r} $, e 1si trova per questo motivo a doversi allontanare: $L_{comp} $ resta costante, mentre $l_{comp} $ no.
-A tutti gli effetti del momento angolare, l'accrescimento è come se avvenisse radialmente.
-
-IN QUESTA PARTE NON SI CAPISCE BENE DAGLI APPUNTI, INTEGRA SE POSSIBILE E CORREGGI IL RAGIONAMENTO.
-
+Questo accoppiamento è efficace su tempi scala più brevi di quelli dell'evoluzione orbitale, e rende il momento angolare della compagna \emph{quasi} costante.
+Poiché $M_{comp}$ diminuisce nel tempo a causa del trasferimento di massa, anche il valore di $l_{comp} = \sqrt{G(M_1+M_2)r}$ tenderebbe a diminuire a parità di raggio $r$. 
+Per mantenere "costante" il momento angolare \textit{orbitale} associato alla compagna come previsto dal ragionamento appena descritto, il sistema reagisce espandendo l'orbita:
+\begin{itemize}
+    \item Se $M_{comp}$ diminuisce, per conservare $L$ costante, il raggio orbitale $r$ deve aumentare.
+    \item L'orbita si allarga progressivamente.
+\end{itemize}
+A tutti gli effetti, dal punto di vista del momento angolare, l'accrescimento di massa sulla stella di neutroni avviene come se fosse un accrescimento \emph{radiale}, ovvero senza un trasporto netto di momento angolare significativo verso la stella di neutroni.
+%%% Abbiamo visto che il momento angolare diminuisce, ma che non può essere a causa della radiazione emessa. 
+%%% Questo significa che l'unica cosa che può fare è trasferirsi lungo il disco, verso l'esterno, attraverso la materia in caduta:
+%%% il disco, in questo modo porta materia verso l'interno, e momento angolare verso fuori.
+%%% La parte più esterna del disco in questo modo accumulerà momento angolare, e dovrà quindi aumentare di raggio fino a staccarsi.
+%%% A causa delle forze mareali, la stella compagna attira il disco, formandovi una protuberanza, che a causa della rotazione del disco sarà sempre un po' oltre la linea che congiunge i due corpi: la rotazione tenderà ad allontanarla, mentre la gravità tirerà per riallinearla.
+%%% Questo processo genera una forza di taglio gravitazionale che, frenando la protuberanza che ruota via, genera un momento torcente attraverso il quale il momento angolare viene perso dal disco, e recuperato dalla compagna. 
+%%% \subsubsection{Momento angolare per unità di massa}
+%%% Se si considera il momento angolare per unità di massa, definito come
+%%% \begin{equation}
+%%%     \vec{l} = \frac{\vec{L}}{\mu} = \sqrt{G(M_1+M_2)r}
+%%% \end{equation}
+%%% di un pezzetto di materia di massa $M_2=m << M_{ns}=M_1$ in orbita attorno a una stella di neutroni a una certa distanza $a/2$, questo sarà
+%%% \begin{equation}
+%%%     \vec{l}_m = \frac{L_m}{\mu}\simeq \sqrt{GM_{ns}\frac{a}{2}}.
+%%% \end{equation}
+%%% Per una stella compagna, di massa $M_2 = M_{comp} \sim M_{ns} = M_1 $, che orbiti a una distanza doppia, pari a $a$, sarà invece
+%%% \begin{equation}
+%%%     \vec{l}_{comp} = \frac{L_{comp}}{\mu} \simeq \sqrt{2GM_{ns}a}.
+%%% \end{equation}
+%%% In pratica, il momento angolare per unità di massa di un pezzetto di massa $m$ che sta in orbita, e quello della stella compagna che orbita a distanza simile, sono molto simili: 
+%%% la stella compagna cede massa alla NS, ma il momento angolare gli torna indietro. Poiché però sta perdendo massa, $M_{comp}$ diminuisce, e quindi diminuisce anche $l_{comp} = \sqrt{G(M_1+M_2)r} $, e 1si trova per questo motivo a doversi allontanare: $L_{comp} $ resta costante, mentre $l_{comp} $ no.
+%%% A tutti gli effetti del momento angolare, l'accrescimento è come se avvenisse radialmente.
+%%% 
+%%% IN QUESTA PARTE NON SI CAPISCE BENE DAGLI APPUNTI, INTEGRA SE POSSIBILE E CORREGGI IL RAGIONAMENTO.
+%%% 
 \subsubsection{Energia}
 A differenza del momento angolare, che è un vettore, l'energia è una quantità scalare, e quindi somma sempre positivamente.
 Se mi interessa quanta energia ho rilasciato, posso definire il potenziale fregandomene del percorso:
