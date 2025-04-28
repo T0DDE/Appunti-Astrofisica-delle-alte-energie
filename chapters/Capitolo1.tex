@@ -37,6 +37,8 @@ INSERISCI GLI EXCURSUS IN FORMA DI APPENDICI
 \section{Two bodies problem without lagrangian approach}
 Energie e momenti angolari in sistema binario, leggi di Keplero e teoremi vari, potenziale efficace. Vedi dai suoi appunti.
 
+
+
 \section{Accrescimento}
 
 \subsection{Energia e momento angolare}
@@ -67,6 +69,24 @@ Nei fotoni polarizzati circolarmente, infatti, i campi non oscillano, ma \textit
 Poiché i fotoni vengono emessi in ogni direzione, e casualmente con polarizzazione destra e sinistra, nel complesso il momento angolare totale che porteranno via dal disco sarà 0\footnote{Esistono in effetti casi astrofisici in cui il momento angolare può essere perso tramite la radiazione emessa. Ad esempio questo avviene nelle pulsar, che ruotando emettono radiazione: in questo caso si tratta di un'emissione non termica, coerente (come si vedrà più avanti).}.
 
 \subsubsection{Il tragitto del momento angolare}
+Si consideri un sistema a due corpi, di masse $m_1$ ed $m_2$ posti a una distanza $a$. 
+Questi due corpi ruoteranno attorno al centro di massa del sistema (CM) a una distanza $r_{1/2}=\frac{m_{2/1}}{m_1+m_2}a$, con una velocità $v_{1/2}$ data da:
+\begin{equation}
+    G\frac{m_1m_2}{r_{1/2}^2} = \frac{m_{1/2}v_{1/2}^2}{r_{1/2}}\xrightarrow{}v_{1/2} = \sqrt{\frac{Gm_{2/1}}{r_{1/2}}}. 
+\end{equation}
+Ora, un sistema del genere può essere trattato come un sistema ad un corpo solo di \textbf{massa ridotta} $\mu = \frac{m_1m_2}{m_1+m_2}$ che orbita attorno a un punto a distanza pari alla separazione orbitale dei due oggetti, cioè $a$, con una velocità pari alla velocità relativa fra i due:
+\begin{align*}
+    v_{rel}&=\sqrt{v_1^2 + v_2^2}\\
+           &=\sqrt{\displaystyle\frac{Gm_2}{r_1}+\displaystyle\frac{Gm_1}{r_2}}\\
+           &=\sqrt{G\left( m_2 \frac{m_1+m_2}{m_2a} + m_1\displaystyle\frac{m_1+m_2}{m_1a} \right)}\\
+           &=\sqrt{\frac{2G(m_1+m_2)}{a}},
+\end{align*}
+dove si sono usate le definizioni delle distanze dei due oggetti dal CM.
+Un sistema simile, avrà un momento angolare totale dunque pari a: 
+\begin{equation}
+    L_{tot} = \mu |\vec{a}\times \vec{v_{rel}} |= \mu\sqrt{2G(m_1+m_2)a}. 
+    \label{eq: Momento angolare totale sistema a due corpi ridotto}
+\end{equation}
 Se si considera il momento angolare per unità di massa di un oggetto di massa $M_2$ che orbita insieme ad un altro corpo di massa $M_1$, definito come
 \begin{equation}
     \vec{l_2} = \frac{\vec{L}}{M_2} = \sqrt{G(M_1+M_2)r},
@@ -382,7 +402,7 @@ Infine, l'accrescimento su una stella di neutroni ha efficienza pari a
 
 \subsubsection{Accrescimento su NS}
 La stella di neutroni è composta di materia \textit{gravitazionalmente legata}, ed è un sistema non statico ma sicuramente stazionario: è quindi virializzata.
-La massa cade nella NS, e cadendo libera la sua energia senza irradiare (caduta radiale $\xrightarrow{}\epsilon=0 $: $E_{pot}=E_k$.
+La massa cade nella NS, e cadendo libera la sua energia senza irradiare (caduta radiale $\xrightarrow{}\epsilon=0 $: $E_{pot}=E_k$).
 Nel momento in cui si scontra sulla superficie della stella, libererà sotto forma di agitazione termica esattamente metà dell'energia cinetica, in quanto a questo punto fa parte di un sistema virializzato.
 La formula 
 \begin{equation}
@@ -392,7 +412,7 @@ La formula
 sarebbe vera tecnicamente solo nel caso in cui tutta l'energia venisse convertita: tenendo conto di quanto appena detto, infatti, dovrebbe esserci anche un fattore $1/2$.
 La soluzione di questo paradosso, sta nel fatto che per una stella di neutroni il raggio e la massa sono legati:
 \begin{equation}
-    R_{NS}=M^{-1/3}.   
+    R_{NS}\propto M^{-1/3}.   
 \end{equation}
 Di conseguenza, la stella di neutroni quando acquista massa si comprime un pelo, cedendo quindi energia (l'energia potenziale diminuisce, e metà di questa la libera).
 Tenendo conto di questo, la formula del King, ovvero la \eqref{eq: luminosità di accrescimento NS}, è effettivamente corretta\footnote{Per il conto si veda ARTICOLO(?)}.

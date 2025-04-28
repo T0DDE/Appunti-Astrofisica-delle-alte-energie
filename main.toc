@@ -5,18 +5,18 @@
 \contentsline {subsection}{\numberline {1.2.1}Energia e momento angolare}{7}{subsection.1.2.1}%
 \contentsline {subsubsection}{Sulla radiazione emessa dal disco}{8}{section*.2}%
 \contentsline {subsubsection}{Il tragitto del momento angolare}{8}{section*.3}%
-\contentsline {subsubsection}{Energia}{9}{section*.4}%
-\contentsline {subsubsection}{Circolarizzazione}{10}{section*.5}%
-\contentsline {subsubsection}{Sulle efficienze}{10}{section*.6}%
-\contentsline {subsubsection}{Dischi di accrescimento: perché si formano?}{11}{section*.7}%
-\contentsline {section}{\numberline {1.3}Sui potenziali gravitazionali}{11}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Lezione sui BH, perché si - ch. 1 Taylor, Wheeler - ch. 1 Shultz (vedi drive) - Forse andrebbe in Appendice?}{11}{subsection.1.3.1}%
-\contentsline {subsubsection}{Un buco allo stomaco? O nella teoria?}{12}{section*.8}%
-\contentsline {subsection}{\numberline {1.3.2}Potenziale di Paczinsky-Wiita}{12}{subsection.1.3.2}%
+\contentsline {subsubsection}{Energia}{10}{section*.4}%
+\contentsline {subsubsection}{Circolarizzazione}{11}{section*.5}%
+\contentsline {subsubsection}{Sulle efficienze}{11}{section*.6}%
+\contentsline {subsubsection}{Dischi di accrescimento: perché si formano?}{12}{section*.7}%
+\contentsline {section}{\numberline {1.3}Sui potenziali gravitazionali}{12}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Lezione sui BH, perché si - ch. 1 Taylor, Wheeler - ch. 1 Shultz (vedi drive) - Forse andrebbe in Appendice?}{12}{subsection.1.3.1}%
+\contentsline {subsubsection}{Un buco allo stomaco? O nella teoria?}{13}{section*.8}%
+\contentsline {subsection}{\numberline {1.3.2}Potenziale di Paczinsky-Wiita}{14}{subsection.1.3.2}%
 \contentsline {subsubsection}{Efficacia del metodo}{14}{section*.9}%
 \contentsline {subsubsection}{Avanzamento del periastro}{16}{section*.10}%
-\contentsline {subsubsection}{Dischi di accrescimento}{16}{section*.11}%
-\contentsline {subsubsection}{Discorso sull'efficienza}{18}{section*.12}%
+\contentsline {subsubsection}{Dischi di accrescimento}{17}{section*.11}%
+\contentsline {subsubsection}{Discorso sull'efficienza}{19}{section*.12}%
 \contentsline {subsubsection}{Accrescimento su NS}{19}{section*.13}%
 \contentsline {chapter}{\numberline {2}Sulle Stelle di Neutroni}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sullo spettro di emissione}{21}{section.2.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.23)  27 APR 2025 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.23)  27 APR 2025 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,52 +803,61 @@ Overfull \hbox (11.56876pt too wide) in paragraph at lines 37--37
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <15.59996> not available
-(Font)              size <14.4> substituted on input line 42.
+(Font)              size <14.4> substituted on input line 44.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 60.
+(Font)              size <12> substituted on input line 62.
 
 <Immagini/circular_polarization.jpeg, id=188, 270.00874pt x 180.675pt>
 File: Immagini/circular_polarization.jpeg Graphic file (type jpg)
 <use Immagini/circular_polarization.jpeg>
-Package pdftex.def Info: Immagini/circular_polarization.jpeg  used on input line 63.
+Package pdftex.def Info: Immagini/circular_polarization.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 213.39568pt x 142.79507pt.
-LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 69.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 67.
+(Font)              size <8> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58339> not available
-(Font)              size <8> substituted on input line 67.
+(Font)              size <8> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.41673> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 67.
+(Font)              size <8> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 67.
+(Font)              size <5> substituted on input line 69.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 67.
+(Font)              size <8> substituted on input line 69.
 
 
 
 [7]
 
+
+Package fancyhdr Warning: \headheight is too small (12.5pt): 
+(fancyhdr)                Make it at least 15.59995pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.59995pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
+
+[8 <./Immagini/circular_polarization.jpeg>]
+
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 76.
+(Font)              size <12> substituted on input line 96.
 
 
 
@@ -859,17 +868,8 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[8{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Immagini/circular_polarization.jpeg>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.5pt): 
-(fancyhdr)                Make it at least 15.59995pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.59995pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
-
-[9]
-Overfull \hbox (38.03793pt too wide) in paragraph at lines 146--148
+[9{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (38.03793pt too wide) in paragraph at lines 166--168
 \T1/cmr/m/n/12 Inoltre, no-tando che $\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 E[] \OT1/cmr/m/n/12 = []\OML/cmm/m/it/12 m[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^Om[]c[]$\T1/cmr/m/n/12 , si definisce l'\T1/cmr/bx/n/12 efficienza dell'accrescimento
  []
 
@@ -892,14 +892,11 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [11]
-<Immagini/collasso_out_in_grafico.png, id=261, 854.19125pt x 636.3775pt>
+<Immagini/collasso_out_in_grafico.png, id=259, 854.19125pt x 636.3775pt>
 File: Immagini/collasso_out_in_grafico.png Graphic file (type png)
 <use Immagini/collasso_out_in_grafico.png>
-Package pdftex.def Info: Immagini/collasso_out_in_grafico.png  used on input line 214.
+Package pdftex.def Info: Immagini/collasso_out_in_grafico.png  used on input line 234.
 (pdftex.def)             Requested size: 298.75264pt x 222.57039pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 
 
 
@@ -919,10 +916,19 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [13 <./Immagini/collasso_out_in_grafico.png>]
-<Immagini/potenziale_PW.png, id=276, 791.95876pt x 795.97375pt>
+
+
+Package fancyhdr Warning: \headheight is too small (12.5pt): 
+(fancyhdr)                Make it at least 15.59995pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.59995pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
+
+[14]
+<Immagini/potenziale_PW.png, id=283, 791.95876pt x 795.97375pt>
 File: Immagini/potenziale_PW.png Graphic file (type png)
 <use Immagini/potenziale_PW.png>
-Package pdftex.def Info: Immagini/potenziale_PW.png  used on input line 271.
+Package pdftex.def Info: Immagini/potenziale_PW.png  used on input line 291.
 (pdftex.def)             Requested size: 298.75264pt x 300.26268pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -936,7 +942,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[14]
+[15]
 
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -945,24 +951,18 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[15 <./Immagini/potenziale_PW.png>]
-<Immagini/soluzione_grafica_pot_efficacie.png, id=299, 512.91624pt x 518.93875pt>
+[16 <./Immagini/potenziale_PW.png>]
+<Immagini/soluzione_grafica_pot_efficacie.png, id=306, 512.91624pt x 518.93875pt>
 File: Immagini/soluzione_grafica_pot_efficacie.png Graphic file (type png)
 <use Immagini/soluzione_grafica_pot_efficacie.png>
-Package pdftex.def Info: Immagini/soluzione_grafica_pot_efficacie.png  used on input line 310.
+Package pdftex.def Info: Immagini/soluzione_grafica_pot_efficacie.png  used on input line 330.
 (pdftex.def)             Requested size: 256.07741pt x 259.08073pt.
-<Immagini/PWpot_fine_tuning.png, id=303, 585.18625pt x 565.11125pt>
+<Immagini/PWpot_fine_tuning.png, id=310, 585.18625pt x 565.11125pt>
 File: Immagini/PWpot_fine_tuning.png Graphic file (type png)
 <use Immagini/PWpot_fine_tuning.png>
-Package pdftex.def Info: Immagini/PWpot_fine_tuning.png  used on input line 322.
+Package pdftex.def Info: Immagini/PWpot_fine_tuning.png  used on input line 342.
 (pdftex.def)             Requested size: 213.39568pt x 206.07849pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -971,7 +971,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[16]
+[17 <./Immagini/soluzione_grafica_pot_efficacie.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -980,7 +980,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[17 <./Immagini/soluzione_grafica_pot_efficacie.png> <./Immagini/PWpot_fine_tuning.png>]
+[18 <./Immagini/PWpot_fine_tuning.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -989,7 +989,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[18])
+[19])
 
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -998,22 +998,20 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
-[19]
+[20]
 \openout2 = `chapters/Capitolo2.aux'.
 
 (./chapters/Capitolo2.tex
+Chapter 2.
 
-[20
+
+[21
 
 
 
 
 
 ]
-Chapter 2.
-
-
-[21]
 
 
 Package fancyhdr Warning: \headheight is too small (12.5pt): 
@@ -1041,7 +1039,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [24]
-<Immagini/dipole_moment.png, id=408, 903.375pt x 756.8275pt>
+<Immagini/dipole_moment.png, id=410, 903.375pt x 756.8275pt>
 File: Immagini/dipole_moment.png Graphic file (type png)
 <use Immagini/dipole_moment.png>
 Package pdftex.def Info: Immagini/dipole_moment.png  used on input line 155.
@@ -1091,7 +1089,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [28]
-<Immagini/light cilinder.jpg, id=481, 776.9025pt x 578.16pt>
+<Immagini/light cilinder.jpg, id=483, 776.9025pt x 578.16pt>
 File: Immagini/light cilinder.jpg Graphic file (type jpg)
 <use Immagini/light cilinder.jpg>
 Package pdftex.def Info: Immagini/light cilinder.jpg  used on input line 283.
@@ -1127,17 +1125,17 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [31]
-<Immagini/beaming iso source.png, id=522, 370.38374pt x 137.51375pt>
+<Immagini/beaming iso source.png, id=524, 370.38374pt x 137.51375pt>
 File: Immagini/beaming iso source.png Graphic file (type png)
 <use Immagini/beaming iso source.png>
 Package pdftex.def Info: Immagini/beaming iso source.png  used on input line 346.
 (pdftex.def)             Requested size: 213.39568pt x 79.22925pt.
-<Immagini/pulsar pulses.png, id=523, 580.1675pt x 194.7275pt>
+<Immagini/pulsar pulses.png, id=525, 580.1675pt x 194.7275pt>
 File: Immagini/pulsar pulses.png Graphic file (type png)
 <use Immagini/pulsar pulses.png>
 Package pdftex.def Info: Immagini/pulsar pulses.png  used on input line 352.
 (pdftex.def)             Requested size: 213.39568pt x 71.62314pt.
-<Immagini/spettro sincrotrone.png, id=526, 242.9075pt x 208.78pt>
+<Immagini/spettro sincrotrone.png, id=528, 242.9075pt x 208.78pt>
 File: Immagini/spettro sincrotrone.png Graphic file (type png)
 <use Immagini/spettro sincrotrone.png>
 Package pdftex.def Info: Immagini/spettro sincrotrone.png  used on input line 366.
@@ -1173,7 +1171,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [34]
-<Immagini/diagramma-b-p-l.jpg, id=565, 770.88pt x 578.16pt>
+<Immagini/diagramma-b-p-l.jpg, id=567, 770.88pt x 578.16pt>
 File: Immagini/diagramma-b-p-l.jpg Graphic file (type jpg)
 <use Immagini/diagramma-b-p-l.jpg>
 Package pdftex.def Info: Immagini/diagramma-b-p-l.jpg  used on input line 450.
@@ -1269,22 +1267,22 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [42]
-<Immagini/carica in orbita fase 2.pdf, id=658, 614.295pt x 169.0315pt>
+<Immagini/carica in orbita fase 2.pdf, id=660, 614.295pt x 169.0315pt>
 File: Immagini/carica in orbita fase 2.pdf Graphic file (type pdf)
 <use Immagini/carica in orbita fase 2.pdf>
 Package pdftex.def Info: Immagini/carica in orbita fase 2.pdf  used on input line 682.
 (pdftex.def)             Requested size: 277.41176pt x 76.33427pt.
-<Immagini/carica in orbita fase 1 .pdf, id=659, 614.295pt x 280.74889pt>
+<Immagini/carica in orbita fase 1 .pdf, id=661, 614.295pt x 280.74889pt>
 File: Immagini/carica in orbita fase 1 .pdf Graphic file (type pdf)
 <use Immagini/carica in orbita fase 1 .pdf>
 Package pdftex.def Info: Immagini/carica in orbita fase 1 .pdf  used on input line 690.
 (pdftex.def)             Requested size: 277.41176pt x 126.78563pt.
-<Immagini/carica in orbita fase 3.pdf, id=660, 614.295pt x 283.76013pt>
+<Immagini/carica in orbita fase 3.pdf, id=662, 614.295pt x 283.76013pt>
 File: Immagini/carica in orbita fase 3.pdf Graphic file (type pdf)
 <use Immagini/carica in orbita fase 3.pdf>
 Package pdftex.def Info: Immagini/carica in orbita fase 3.pdf  used on input line 697.
 (pdftex.def)             Requested size: 277.41176pt x 128.14551pt.
-<Immagini/RT_instability.png, id=661, 454.69875pt x 317.185pt>
+<Immagini/RT_instability.png, id=663, 454.69875pt x 317.185pt>
 File: Immagini/RT_instability.png Graphic file (type png)
 <use Immagini/RT_instability.png>
 Package pdftex.def Info: Immagini/RT_instability.png  used on input line 709.
@@ -1387,7 +1385,7 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [51]
-<Immagini/Grafico_pressione_raggio.png, id=773, 672.5125pt x 659.46375pt>
+<Immagini/Grafico_pressione_raggio.png, id=776, 672.5125pt x 659.46375pt>
 File: Immagini/Grafico_pressione_raggio.png Graphic file (type png)
 <use Immagini/Grafico_pressione_raggio.png>
 Package pdftex.def Info: Immagini/Grafico_pressione_raggio.png  used on input line 950.
@@ -1420,12 +1418,12 @@ Package fancyhdr Warning: \headheight is too small (12.5pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.09995pt}.
 
 [54]
-<Immagini/potensiale di roche su punto.png, id=801, 763.85374pt x 394.47375pt>
+<Immagini/potensiale di roche su punto.png, id=803, 763.85374pt x 394.47375pt>
 File: Immagini/potensiale di roche su punto.png Graphic file (type png)
 <use Immagini/potensiale di roche su punto.png>
 Package pdftex.def Info: Immagini/potensiale di roche su punto.png  used on input line 1008.
 (pdftex.def)             Requested size: 213.39568pt x 110.19908pt.
-<Immagini/potenziale di Roche lungo asse congiungente.png, id=802, 703.62875pt x 280.04625pt>
+<Immagini/potenziale di Roche lungo asse congiungente.png, id=804, 703.62875pt x 280.04625pt>
 File: Immagini/potenziale di Roche lungo asse congiungente.png Graphic file (type png)
 <use Immagini/potenziale di Roche lungo asse congiungente.png>
 Package pdftex.def Info: Immagini/potenziale di Roche lungo asse congiungente.png  used on input line 1018.
@@ -1538,19 +1536,19 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D49F3D508556FA474AD791B118279F66;5703.
  ) 
 Here is how much of TeX's memory you used:
- 21456 strings out of 475171
- 398542 string characters out of 5767095
- 915868 words of memory out of 5000000
- 43775 multiletter control sequences out of 15000+600000
+ 21461 strings out of 475171
+ 398681 string characters out of 5767095
+ 916928 words of memory out of 5000000
+ 43778 multiletter control sequences out of 15000+600000
  584222 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,18n,107p,883b,1202s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2986.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (68 pages, 1604721 bytes).
+Output written on main.pdf (68 pages, 1606719 bytes).
 PDF statistics:
- 1109 PDF objects out of 1200 (max. 8388607)
- 931 compressed objects within 10 object streams
- 346 named destinations out of 1000 (max. 500000)
+ 1111 PDF objects out of 1200 (max. 8388607)
+ 933 compressed objects within 10 object streams
+ 348 named destinations out of 1000 (max. 500000)
  331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
