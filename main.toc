@@ -38,10 +38,10 @@
 \contentsline {subsubsection}{Assorbimento del plerione}{31}{section*.25}%
 \contentsline {subsubsection}{Ma allora che cosa si osserva?}{31}{section*.26}%
 \contentsline {subsection}{\numberline {2.1.5}Come evolvono nel tempo?}{33}{subsection.2.1.5}%
-\contentsline {subsubsection}{Tempo di vita e tempo di spin-down}{33}{section*.27}%
-\contentsline {subsubsection}{Tecnica dinamica}{34}{section*.28}%
+\contentsline {subsubsection}{Tempo di vita e tempo di spin-down}{34}{section*.27}%
+\contentsline {subsubsection}{Tecnica dinamica}{35}{section*.28}%
 \contentsline {section}{\numberline {2.2}Diagramma BP}{35}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Linee importanti}{35}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Linee importanti}{36}{subsection.2.2.1}%
 \contentsline {subsubsection}{Hubble line}{36}{section*.29}%
 \contentsline {subsubsection}{Death line}{36}{section*.30}%
 \contentsline {subsubsection}{Linee curve}{37}{section*.31}%
@@ -50,8 +50,8 @@
 \contentsline {subsubsection}{Sull'interno delle stelle di neutroni (APPENDICE?)}{39}{section*.33}%
 \contentsline {subsubsection}{Posizione NS nel diagramma BP}{40}{section*.34}%
 \contentsline {subsubsection}{Scenario del riciclaggio}{40}{section*.35}%
-\contentsline {section}{\numberline {2.3}Raggi importanti}{41}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Descrizione energetica}{41}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Raggi importanti}{42}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Descrizione energetica}{42}{subsection.2.3.1}%
 \contentsline {subsubsection}{Caduta radiale}{42}{section*.36}%
 \contentsline {subsection}{\numberline {2.3.2}Descrizione dinamica}{43}{subsection.2.3.2}%
 \contentsline {subsubsection}{Campi indotti e forze - accrescimento sferico}{43}{section*.37}%
@@ -59,23 +59,23 @@
 \contentsline {subsubsection}{Effetto elica}{45}{section*.39}%
 \contentsline {subsection}{\numberline {2.3.3}Confronto fra i raggi}{46}{subsection.2.3.3}%
 \contentsline {subsubsection}{}{46}{section*.40}%
-\contentsline {subsubsection}{Alcune osservazioni}{47}{section*.41}%
+\contentsline {subsubsection}{Alcune osservazioni}{48}{section*.41}%
 \contentsline {section}{\numberline {2.4}Modelli di stelle di neutroni}{48}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Modello di Roche}{48}{subsection.2.4.1}%
 \contentsline {subsubsection}{Limite centrifugo}{48}{section*.42}%
 \contentsline {subsubsection}{Effetto all'equatore}{49}{section*.43}%
-\contentsline {subsection}{\numberline {2.4.2}Modello di Burderi}{49}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Modello di Burderi}{50}{subsection.2.4.2}%
 \contentsline {subsubsection}{Differenza con Roche}{50}{section*.44}%
 \contentsline {subsubsection}{Un limite sul periodo}{50}{section*.45}%
-\contentsline {subsubsection}{Altri moti nel diagramma}{50}{section*.46}%
-\contentsline {subsubsection}{Spettro emissione e raggi}{51}{section*.47}%
+\contentsline {subsubsection}{Altri moti nel diagramma}{51}{section*.46}%
+\contentsline {subsubsection}{Spettro emissione e raggi}{52}{section*.47}%
 \contentsline {subsection}{\numberline {2.4.3}Grafico pressione raggio}{52}{subsection.2.4.3}%
-\contentsline {subsubsection}{Archaeopteryx}{53}{section*.48}%
+\contentsline {subsubsection}{Archaeopteryx}{54}{section*.48}%
 \contentsline {subsection}{\numberline {2.4.4}Sistemi binari}{54}{subsection.2.4.4}%
 \contentsline {subsubsection}{Forze mareali}{54}{section*.49}%
 \contentsline {subsubsection}{Potenziale di Roche}{55}{section*.50}%
 \contentsline {subsubsection}{Punti Lagrangiani}{55}{section*.51}%
-\contentsline {subsubsection}{Tidal torque interaction}{56}{section*.52}%
+\contentsline {subsubsection}{Tidal torque interaction}{57}{section*.52}%
 \contentsline {chapter}{\numberline {A}Perché scegliere il c.g.s?}{59}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Tempo di caduta dalla luna}{61}{appendix.B}%
 \contentsline {chapter}{\numberline {C}Esplosioni}{63}{appendix.C}%
